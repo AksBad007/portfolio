@@ -114,6 +114,16 @@ hr {
     p {
         margin-top: 3%;
     }
+    
+    nav {
+        position: static;
+    }
+
+    table{
+        text-align: center;
+        width: 70%;
+        font-size: medium;
+    }
 }
 
 /*(landscape phones, 768px and below) */
