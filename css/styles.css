@@ -1,4 +1,3 @@
-
 body {
     color: #373a40;
     margin: 0;
@@ -7,7 +6,7 @@ body {
 
 nav {
     background-color:#c5a880;  
-    font-family: Nerko One,Arial, Helvetica, sans-serif; 
+    font-family: Nerko One,Arial, Helvetica, sans-serif;
 }
 
 .head {
@@ -102,39 +101,22 @@ hr {
 }
 
 .row {
-    margin: 2% 15% 0 0;
+    margin: 0% 15% 0 0;
 }
 
 .left {
     margin-left: 47%;
 }
 
-
-
-/*(laptops, 1200px and below) */
-@media (max-width: 1200px) {
-    #pc-boi{
-        margin: 9% 0 0 20%;
-        width: 40%;
-    }
-}
-
-/*(tablets, 992px and below) */
-@media (max-width: 992px) {
-    #linux {
-        margin-top: 10%;
+/*(potrait phones, 576px and below) */
+@media (max-width: 576px) {   
+    p {
+        margin-top: 3%;
     }
 
-    table{
-        text-align: center;
-        width: 100%;
+    #t3 {
+        display: none;
     }
-
-    td ,th {
-        padding: 1% 0;
-        font-size: medium;
-    }
-
 }
 
 /*(landscape phones, 768px and below) */
@@ -159,20 +141,27 @@ hr {
     }
 
 }
-
-/*(potrait phones, 576px and below) */
-@media (max-width: 576px) {   
-    p {
-        margin-top: 3%;
-    }
-    
-    nav {
-        position: static;
+/*(tablets, 992px and below) */
+@media (max-width: 992px) {
+    #linux {
+        margin-top: 10%;
     }
 
     table{
-        text-align: center;
-        width: 70%;
+        width: 100%;
+    }
+
+    td ,th {
+        padding: 1% 0;
         font-size: medium;
+    }
+
+}
+
+/*(laptops, 1200px and below) */
+@media (max-width: 1200px) {
+    #pc-boi{
+        margin: 9% 0 0 20%;
+        width: 40%;
     }
 }
