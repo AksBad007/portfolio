@@ -115,7 +115,7 @@ hr {
     }
 
     #t3 {
-        display: none;
+        table-layout: fixed;
     }
 }
 
