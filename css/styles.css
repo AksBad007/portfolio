@@ -29,7 +29,12 @@ nav {
     text-align: center;
 }
 
-p, span {
+span {
+    font-family: Padauk,Arial, Helvetica, sans-serif;
+    color: #931a25;
+}
+
+p {
     margin-top: 18%;
     font-weight: 900;
     font-size: large;
