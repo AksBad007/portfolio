@@ -1,1 +1,199 @@
-body{color:#373a40;margin:0;width:100%}nav{background-color:#c5a880;font-family:Nerko One,Arial,Helvetica,sans-serif}p,span{margin-top:18%;font-weight:900;font-size:large;color:#931a25;font-family:Padauk,Arial,Helvetica,sans-serif}table{margin-top:2%;width:100%}td,th{padding:1% 0;font-size:x-large}label{text-align:center;font-weight:700}hr{border-style:dotted none none;border-color:#686d76;margin-top:25px;width:30%;border-width:10px}h2{text-align:left;margin:5% 0 0 7.5%;font-family:Nerko One,Arial,Helvetica,sans-serif}#gif{width:40%;margin:10% 0 0 20%}#tech-skills{margin:3% 7.5%;font-size:large;text-align:left}#about{text-align:center}#linux{margin-top:5%;font-weight:bolder;font-size:x-large}#pc-boi{margin:9% 0 0 20%;width:40%}#skills{text-align:center;background-color:#c5a880;padding-top:5%}#projects{margin-top:5%}#contact{background-color:#c5a880}.project{margin:0 10%}.head{background-color:#c5a880;max-width:1920px}.emph{margin-top:10%;text-align:center;font-family:Nerko One,Arial,Helvetica,sans-serif}.p-link,.p-link:hover{text-decoration:none;color:#fff;background-color:#000;padding:5px;border-radius:5px;font-size:x-large;font-weight:1000}.p-div{text-align:center;margin-top:2%}.connect{text-align:center;padding:3%;margin-top:2%}.row{margin:0 15% 0 0}.left{margin-left:47%}@media (max-width:576px){p{margin-top:3%}#t3{table-layout:fixed}}@media (max-width:768px){p{margin-top:5%}#no-xp-img{float:right;height:20%;width:20%;margin:-5% 5% 0 0}label{margin-right:10%}.mb-3{margin-left:15%}}@media (max-width:992px){#linux{margin-top:10%}table{width:100%}td,th{padding:1% 0;font-size:medium}}@media (max-width:1200px){#pc-boi{margin:9% 0 0 20%;width:40%}}
+body {
+    color: #373a40;
+    margin: 0;
+    width: 100%;
+}
+
+nav {
+    background-color:#c5a880;  
+    font-family: Nerko One,Arial, Helvetica, sans-serif;
+}
+
+p, span {
+    margin-top: 18%;
+    font-weight: 900;
+    font-size: large;
+    color: #931a25;
+    font-family: Padauk,Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin-top: 2%;
+    width: 100%;
+}
+
+td ,th {
+    padding: 1% 0;
+    font-size: x-large;
+}
+
+label {
+    text-align: center;
+    font-weight: bold;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #686d76;
+    margin-top: 25px;
+    width: 30%;
+    border-width: 10px;
+}
+
+h2 {
+    text-align: left;
+    margin:5% 0 0 7.5%;
+    font-family: Nerko One,Arial, Helvetica, sans-serif;
+}
+
+#gif {
+    width: 40%;
+    margin: 10% 0 0 20%;
+}
+
+#tech-skills {
+    margin: 3% 7.5%;
+    font-size: large;
+    text-align: left;
+}
+
+#about {
+    text-align: center;
+}
+
+#linux {
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+#pc-boi {
+    margin: 9% 0 0 20%;
+    width: 40%;
+}
+
+#skills {
+    text-align: center;
+    background-color: #c5a880;
+    padding-top: 5%;
+}
+
+#projects {
+    margin-top: 5%;
+}
+
+#contact {
+    background-color: #c5a880;
+}
+
+.project {
+    margin: 0% 10%;
+}
+
+.head {
+    background-color: #c5a880;
+    max-width: 1920px;
+}
+
+.emph {
+    margin-top: 10%;
+    text-align: center;
+    font-family: Nerko One,Arial, Helvetica, sans-serif;
+}
+
+.p-link, .p-link:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: x-large;
+    font-weight: 1000;
+}
+
+a, a:hover {
+    color: inherit;
+}
+
+.p-div {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#xp {
+    background-color: #c5a880;
+    padding: 1% 0 5%;
+}
+
+.connect {
+    text-align: center;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+.row {
+    margin-right: 15%;
+    width: 100%;
+}
+
+.left {
+    margin-left: 47%;
+}
+
+/*(potrait phones, 576px and below) */
+@media (max-width: 576px) {   
+    p {
+        margin-top: 3%;
+    }
+
+    #t3 {
+        table-layout: fixed;
+    }
+}
+
+/*(landscape phones, 768px and below) */
+@media (max-width: 768px) {
+    p {
+        margin-top: 5%;
+    }
+
+    #no-xp-img {
+        float: right;
+        height: 20%;
+        width: 20%;
+        margin: -5% 5% 0 0;
+    }
+
+    label {
+        margin-right: 10%;
+    }
+
+    .mb-3 {
+        margin-left: 15%;
+    }
+
+}
+/*(tablets, 992px and below) */
+@media (max-width: 992px) {
+    #linux {
+        margin-top: 10%;
+    }
+
+    table{
+        width: 100%;
+    }
+
+    td ,th {
+        padding: 1% 0;
+        font-size: medium;
+    }
+
+}
+
+/*(laptops, 1200px and below) */
+@media (max-width: 1200px) {
+    #pc-boi{
+        margin: 9% 0 0 20%;
+        width: 40%;
+    }
+}
